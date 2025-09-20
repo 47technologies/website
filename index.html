@@ -7,40 +7,71 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <h1>47 Technologies</h1>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+  <!-- Header -->
+  <header class="header">
+    <div class="container nav-container">
+      <h1 class="logo">47 Technologies</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <section id="about">
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h2>Innovating the Future</h2>
+      <p>At 47 Technologies, we build cutting-edge solutions in AI, Embedded Systems, and Software Development.</p>
+      <a href="#services" class="btn">Explore Services</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
       <h2>About Us</h2>
-      <p>47 Technologies is focused on delivering clean, efficient, and innovative technology solutions.</p>
-    </section>
+      <p>We are a team of passionate engineers and innovators, committed to solving real-world problems using technology.</p>
+    </div>
+  </section>
 
-    <section id="services">
+  <!-- Services Section -->
+  <section id="services" class="section bg-light">
+    <div class="container">
       <h2>Our Services</h2>
-      <ul>
-        <li>AI/ML Solutions</li>
-        <li>Embedded Firmware Development</li>
-        <li>Custom Software Engineering</li>
-      </ul>
-    </section>
+      <div class="grid">
+        <div class="card">
+          <h3>AI/ML Solutions</h3>
+          <p>Building intelligent systems that learn and adapt.</p>
+        </div>
+        <div class="card">
+          <h3>Embedded Firmware</h3>
+          <p>Optimized firmware for AI accelerators, GPUs, and IoT devices.</p>
+        </div>
+        <div class="card">
+          <h3>Custom Software</h3>
+          <p>Scalable applications tailored to your business needs.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:contact@47technologies.com">contact@47technologies.com</a></p>
-    </section>
-  </main>
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Email us at <a href="mailto:contact@47technologies.com">contact@47technologies.com</a></p>
+    </div>
+  </section>
 
-  <footer>
-    <p>© 2025 47 Technologies</p>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 47 Technologies. All rights reserved.</p>
+    </div>
   </footer>
 </body>
 </html>
